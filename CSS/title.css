@@ -78,9 +78,10 @@ section.title{
         display: flex;
         justify-content: center;
         gap: 5px;
-        width: 90%;
+        width: 80%;
         height: 600px;
         font-weight: 700;
+        padding-top: 15%;
      
     }
     
@@ -99,10 +100,23 @@ section.title{
 
 /*Mobile*/
 @media (max-width: 425px) {
-    .ilustracao{
-        margin-top: 100px;
+    .profile{
+        
         justify-content: center;
        }
+
+       section.title{
+        width: 80%;
+        padding-top: 20%;
+        flex-direction: column;
+     
+    }
+    .title__subsection{
+        text-align: center;
+        margin: 20px auto;
+        width: 90%;
+    }
+    
 }
 
     
