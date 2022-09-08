@@ -2,7 +2,7 @@ section.title{
     display: flex;
     gap: 10px;
     width: 90%;
-    height: 350px;
+    min-height: 350px;
     margin-inline: auto;
     padding-top: 3%;
 }
@@ -101,6 +101,10 @@ section.title{
 
 /*Mobile*/
 @media (max-width: 425px) {
+
+    section.title{
+        word-wrap: break-word;
+    }
     .profile{
         justify-content: center;
        }
