@@ -28,5 +28,7 @@ section.about p{
 }
 /*Mobile*/
 @media (max-width: 425px) {
-
+  section.about{
+    padding: 5%;
+  }
 }

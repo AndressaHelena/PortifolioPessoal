@@ -14,6 +14,7 @@ section.title{
   }
  
   .title__bio{
+   
      padding-top: 10%;
      font-family: 'Roboto', sans-serif;
      color: var(--button);
@@ -101,7 +102,6 @@ section.title{
 /*Mobile*/
 @media (max-width: 425px) {
     .profile{
-        
         justify-content: center;
        }
 
@@ -111,15 +111,15 @@ section.title{
         flex-direction: column;
      
     }
+    
     .title__subsection{
         text-align: center;
-        margin: 20px auto;
+        margin: 10px auto;
         width: 90%;
     }
-    
-}
 
-    
- 
- 
- 
+    .title__network__item{
+        width: 90%;
+        margin: 00 10px 0;
+    }
+}

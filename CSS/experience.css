@@ -11,7 +11,6 @@
 .experience__section__title{
     text-align: center;
     font-size: 30px;
-    color: var(--color-blue); 
     padding-bottom: 5%;
    
 }
@@ -34,9 +33,9 @@
 .experiencia__botao--demo, .experiencia__botao--repo{
     text-transform: uppercase;
     display: block;
-    background-color: var(--color-blue);
+    background-color: var(--button);
     
-    color: var(--cor-de-fundo);
+    color: var(--cor-de-link);
     cursor: pointer;
     border: none;
     border-radius: 8px;
@@ -47,8 +46,9 @@
 }
 .experiencia__botao--demo:hover, .experiencia__botao--repo:hover{
     opacity: 1;
-    background-color: var(--gray-text);
-    color: var(--light-gray);
+    background-color: var(--color-orange);
+    transition: 2s;
+    
 }
 
 @media  (max-width: 768px){
