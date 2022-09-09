@@ -1,6 +1,6 @@
 section.skills{
     
-    margin: auto;
+    margin: 0 auto;
     padding-top: 5%;
     
     width: 90%;
@@ -11,14 +11,15 @@ section.skills{
 .skills__title{
     text-align: center;
     font-size: 30px;
-    color: var(--color-blue);  
+    margin: 20px 0;
+    color: var(--dark-gray);  
 }
 
 .skills__line{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 20px;
-    width: 70%;
+    width: 90%;
     margin-inline: auto;
     justify-content: center;
 }
@@ -32,7 +33,7 @@ section.skills{
 }
 
 .skills__box{
-    margin-inline: 10px;
+    margin-inline: 60px;
 }
 
 
