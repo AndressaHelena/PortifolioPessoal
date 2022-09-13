@@ -1,5 +1,4 @@
 
-console.log("Oi");
 const titulo = document.querySelector('.title__bio');
 
 function escrever(elemento){
