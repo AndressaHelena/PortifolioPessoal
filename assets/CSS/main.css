@@ -44,7 +44,7 @@ a{
     color: var(--cor-de-link);
 }
 .all{
-    width: 100%;
+    max-width: 1400px ;
     justify-content: center;
     
 }

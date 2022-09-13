@@ -13,7 +13,7 @@ section.menu{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    min-width: 1400px;
     background-color: var(--gray-text);
     justify-content:space-between;
     align-items: center;
